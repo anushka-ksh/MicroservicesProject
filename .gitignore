@@ -1,0 +1,17 @@
+# --- Secrets (NEVER UPLOAD THESE) ---
+.env
+*.env
+secrets.properties
+
+# --- Java & Build Files ---
+target/
+*.class
+.mvn/
+mvnw
+mvnw.cmd
+
+# --- IDE Settings (Optional but recommended) ---
+.idea/
+*.iml
+.vscode/
+.DS_Store
