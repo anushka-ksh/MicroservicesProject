@@ -1,0 +1,25 @@
+package main.java.com.mindmatters.routineservice.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+import java.util.List;
+import main.java.com.mindmatters.routineservice.model.Routine;
+import main.java.com.mindmatters.routineservice.service.RoutineService;
+
+@RestController
+@RequestMapping("/routines")
+public class RoutineController {
+
+    @Autowired
+    private RoutineService service;
+
+    @PostMapping
+    public Routine createRoutine(@RequestBody Routine routine) {
+        return service.createRoutine(routine);
+    }
+
+    @GetMapping("/user/{userId}")
+    public List<Routine> getUserRoutines(@PathVariable String userId) {
+        return service.getRoutines(userId);
+    }
+}
