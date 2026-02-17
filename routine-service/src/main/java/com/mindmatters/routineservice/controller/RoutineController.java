@@ -1,13 +1,13 @@
-package main.java.com.mindmatters.routineservice.controller;
+package com.mindmatters.routineservice.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
-import main.java.com.mindmatters.routineservice.model.Routine;
-import main.java.com.mindmatters.routineservice.service.RoutineService;
+import com.mindmatters.routineservice.model.Routine;
+import com.mindmatters.routineservice.service.RoutineService;
 
 @RestController
-@RequestMapping("/routines")
+@RequestMapping("/api/routines")
 public class RoutineController {
 
     @Autowired

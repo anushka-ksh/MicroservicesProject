@@ -1,9 +1,9 @@
-package main.java.com.mindmatters.routineservice.service;
+package com.mindmatters.routineservice.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import main.java.com.mindmatters.routineservice.model.Routine;
-import main.java.com.mindmatters.routineservice.repository.RoutineRepository;
+import com.mindmatters.routineservice.model.Routine;
+import com.mindmatters.routineservice.repository.RoutineRepository;
 import java.util.List;
 
 @Service

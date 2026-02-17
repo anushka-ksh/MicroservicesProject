@@ -1,4 +1,4 @@
-package main.java.com.mindmatters.routineservice.model;
+package com.mindmatters.routineservice.model;
 
 import java.lang.annotation.Inherited;
 import jakarta.persistence.*;
