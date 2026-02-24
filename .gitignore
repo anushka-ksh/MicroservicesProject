@@ -1,17 +1,47 @@
-# --- Secrets (NEVER UPLOAD THESE) ---
-.env
-*.env
-secrets.properties
-
-# --- Java & Build Files ---
-target/
+# Compiled class file
 *.class
-.mvn/
-mvnw
-mvnw.cmd
 
-# --- IDE Settings (Optional but recommended) ---
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs
+hs_err_pid*
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDEs (VS Code, Eclipse, IntelliJ)
+.vscode/
 .idea/
 *.iml
-.vscode/
+.classpath
+.project
+.settings/
+
+# OS generated files
 .DS_Store
+Thumbs.db
